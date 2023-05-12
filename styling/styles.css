@@ -1,0 +1,240 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    background-color: #5e2590;
+    /* SFSU purple */
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+header a:hover {
+    color: #ccc;
+}
+
+.account-icon {
+    font-size: 1.5rem;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+main {
+    padding: 1rem;
+    background-color: #f9eb11;
+    /* SFSU gold */
+    flex-grow: 1;
+}
+
+section {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+section h1 {
+    font-size: 3rem;
+    /* larger font size */
+    text-align: center;
+    /* center align */
+    margin-top: 0;
+    /* no top margin */
+}
+
+footer {
+    background-color: #5e2590;
+    /* SFSU purple */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* General styles... */
+
+/* Login styles... */
+section#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section#login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+section#login form input[type="text"],
+section#login form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #5e2590;
+    /* SFSU purple */
+}
+
+section#login form input[type="submit"] {
+    cursor: pointer;
+    background-color: #5e2590;
+    /* SFSU purple */
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    width: 100%;
+}
+
+section#login p {
+    text-align: center;
+}
+
+section#login p a {
+    color: #5e2590;
+    /* SFSU purple */
+    text-decoration: none;
+}
+
+section#login p a:hover {
+    color: #3c1957;
+    /* Darker SFSU purple */
+}
+
+/* Signup  page */
+
+section#signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section#signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+section#signup form input[type="text"],
+section#signup form input[type="password"],
+section#signup form input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #5e2590;
+    /* SFSU purple */
+}
+
+section#signup form button {
+    cursor: pointer;
+    background-color: #5e2590;
+    /* SFSU purple */
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    width: 100%;
+}
+
+section#signup p {
+    text-align: center;
+}
+
+section#signup p a {
+    color: #5e2590;
+    /* SFSU purple */
+    text-decoration: none;
+}
+
+section#signup p a:hover {
+    color: #3c1957;
+    /* Darker SFSU purple */
+}
+
+/* Specials page */
+.specials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.specials-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.specials-item {
+    width: 150px;
+    text-align: center;
+}
+
+.specials-item img {
+    width: 100%;
+    height: auto;
+}
+
+.specials-item p {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Menu page */
+#menu {
+    background-color: #f9eb11;
+    /* SFSU gold */
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Services page */
+#services {
+    background-color: #f9eb11;
+    /* SFSU gold */
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Shop page */
+#shop {
+    background-color: #f9eb11;
+    /* SFSU gold */
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Reviews page */
+#reviews {
+    background-color: #f9eb11;
+    /* SFSU gold */
+    padding: 1rem;
+    border-radius: 5px;
+}
