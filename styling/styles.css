@@ -1,550 +1,490 @@
 /* General styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    background-color: #5e2590;
-    /* SFSU purple */
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: #5e2590;
+  /* SFSU purple */
+  color: #fff;
 }
 
 header a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
 }
 
 header a:hover {
-    color: #ccc;
+  color: #ccc;
 }
 
 .account-icon {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .menu-toggle {
-    display: none;
-    font-size: 1.5rem;
-    cursor: pointer;
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 nav {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 main {
-    padding: 1rem;
-    background-color: #f9eb11;
-    /* SFSU gold */
-    flex-grow: 1;
+  padding: 1rem;
+  background-color: #f9eb11;
+  /* SFSU gold */
+  flex-grow: 1;
 }
 
 section {
-    margin-bottom: 2rem;
-    width: 100%;
+  margin-bottom: 2rem;
+  width: 100%;
 }
 
 section h1 {
-    font-size: 3rem;
-    /* larger font size */
-    text-align: center;
-    /* center align */
-    margin-top: 0;
-    /* no top margin */
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0;
 }
 
 footer {
-    background-color: #5e2590;
-    /* SFSU purple */
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
+  background-color: #5e2590;
+  /* SFSU purple */
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
 }
-
-/* General styles... */
 
 /* Login styles... */
 section#login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 section#login form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 300px;
 }
 
 section#login form input[type="text"],
 section#login form input[type="password"] {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #5e2590;
-    /* SFSU purple */
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #5e2590;
+  /* SFSU purple */
 }
 
 section#login form input[type="submit"] {
-    cursor: pointer;
-    background-color: #5e2590;
-    /* SFSU purple */
-    color: #fff;
-    padding: 0.5rem;
-    border: none;
-    width: 100%;
+  cursor: pointer;
+  background-color: #5e2590;
+  /* SFSU purple */
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  width: 100%;
 }
 
 section#login p {
-    text-align: center;
+  text-align: center;
 }
 
 section#login p a {
-    color: #5e2590;
-    /* SFSU purple */
-    text-decoration: none;
+  color: #5e2590;
+  /* SFSU purple */
+  text-decoration: none;
 }
 
 section#login p a:hover {
-    color: #3c1957;
-    /* Darker SFSU purple */
+  color: #3c1957;
+  /* Darker SFSU purple */
 }
 
 /* Signup  page */
 
 section#signup {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 section#signup form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 300px;
 }
 
 section#signup form input[type="text"],
 section#signup form input[type="password"],
 section#signup form input[type="email"] {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #5e2590;
-    /* SFSU purple */
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #5e2590;
+  /* SFSU purple */
 }
 
 section#signup form button {
-    cursor: pointer;
-    background-color: #5e2590;
-    /* SFSU purple */
-    color: #fff;
-    padding: 0.5rem;
-    border: none;
-    width: 100%;
+  cursor: pointer;
+  background-color: #5e2590;
+  /* SFSU purple */
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  width: 100%;
 }
 
 section#signup p {
-    text-align: center;
+  text-align: center;
 }
 
 section#signup p a {
-    color: #5e2590;
-    /* SFSU purple */
-    text-decoration: none;
+  color: #5e2590;
+  /* SFSU purple */
+  text-decoration: none;
 }
 
 section#signup p a:hover {
-    color: #3c1957;
-    /* Darker SFSU purple */
+  color: #3c1957;
+  /* Darker SFSU purple */
 }
 
-/* Specials page */
-.specials-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+/* Home Page */
+#home {
+  text-align: center;
+  padding: 50px 0;
 }
 
-.specials-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+#home .headr {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 20px;
 }
 
-.specials-item {
-    width: 150px;
-    text-align: center;
+#home p {
+  font-size: 1.2em;
+  color: #606060;
+  line-height: 1.6;
 }
 
-.specials-item img {
-    width: 100%;
-    height: auto;
+.album-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.specials-item p {
-    font-size: 0.9rem;
-    color: #333;
+.album-container .headr {
+  text-align: center;
+  font-size: 2em;
+  color: #2d2d2d;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.gallery {
+  flex: 1 0 30%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  max-width: 30%;
+  margin: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.gallery .author {
+  text-align: center;
+  font-size: 1.5em;
+  color: #2d2d2d;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.welcome-text {
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.welcome-text:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Map Page */
+section#map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section#map img {
+  filter: blur(1px);
+  max-width: 100%;
+  height: auto;
 }
 
 /* Menu page */
-#menu {
-    background-color: #f9eb11;
-    /* SFSU gold */
-    padding: 1rem;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    
-    justify-content: space-between;
-    border-style: solid black;
 
+#menu {
+  padding: 20px;
+  text-align: center;
+}
+
+.restaurant-title {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.restaurant-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #F5F5F5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.restaurant-selector label {
+  margin-right: 10px;
+}
+
+.restaurant-selector select {
+  padding: 5px 10px;
+  font-size: 16px;
 }
 
 .grid-col-3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-        justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+  margin-top: 30px;
 }
-
-
-/* Restaurant Selector */
-.restaurant-selector {
-    position: relative;
-    left:80%;
-    padding: 2px;
-    border-radius: 2px;
-    }
-    
-    .restaurant-selector label {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-right: 10px;
-    }
-    
 
 .menu-item {
-    width: calc(25% - 20px);
-    margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    padding: 30px;
-    text-align: center;
-
-}
-
-#menu h1 {
-    position: relative;
-    text-align: center;
-    margin: 12;
-    
-}
-.heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
 }
 
 .menu-item img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-style: solid black;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
+
 .menu-item h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px 0;
 }
+
 .menu-item p {
-    font-size: 16px;
-    margin-bottom: 10px;
+  color: #666;
+  margin: 10px;
 }
+
 .menu-item button {
-    background-color: #e67e22;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  border: none;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  transition: background 0.3s ease;
 }
+
 .menu-item button:hover {
-    background-color: #d35400;
+  background: #666;
 }
 
 /* Services page */
 #services {
-    background-color: #f9eb11;
-    /* SFSU gold */
-    padding: 1rem;
-    border-radius: 5px;
+  background-color: #f9eb11;
+  /* SFSU gold */
+  padding: 1rem;
+  border-radius: 5px;
 }
-/* Shop page */
-/*
-#shop {
-    background-color: #f9eb11;
-    padding: 1rem;
-    border-radius: 5px;
-}
-*/
 
 /* Reviews page */
-#reviews {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #reviews h1 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  
-  #order-list {
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
-    width: 60%;
-  }
-  
-  #order-list h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  #order-list ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #order-list li {
-    margin-bottom: 0.5rem;
-  }
-  
-  #order-history {
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
-    width: 60%;
-  }
-  
-  #order-history h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  #order-history ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #order-history li {
-    margin-bottom: 0.5rem;
-  }
-  
-  #review-form {
-    background-color: #f9eb11;
-    /* SFSU gold */
-    padding: 1rem;
-    border-radius: 5px;
-    margin-bottom: 2rem;
-    width: 60%;
-  }
-  
-  #review-form h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  #review-form label {
-    display: block;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  #review-form select,
-  #review-form textarea {
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    border-radius: 3px;
-    border: none;
-    margin-bottom: 1rem;
-    width: 100%;
-  }
-  
-  #review-form button[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 3px;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  
-  #review-form button[type="submit"]:hover {
-    background-color: #555;
-  }
-  
-  #reviews-list {
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 60%;
-  }
-  
-  #reviews-list h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  #reviews-list ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #reviews-list li {
-    margin-bottom: 1rem;
-  }
-  
-  .rating {
-    display: inline-block;
-    background-color: #f9eb11;
-    /* SFSU gold */
-    color: #333;
-    padding: 0.5rem;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-right: 1rem;
-  }
-  /* Specials section */
-/* Specials section */
-#specials {
-  padding: 50px 0;
-  text-align: center;
-  background-color: #fff;
-}
 
-#specials h1 {
-  font-size: 3rem;
-  margin-bottom: 30px;
+.reviews-container h1 {
   color: #333;
-}
-
-#specials h2 {
-  font-size: 2rem;
   margin-bottom: 20px;
+}
+
+.review-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.review-section h2 {
   color: #333;
-  border: 1px solid #000;
-  display: inline-block;
-  padding: 10px;
-  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.review-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.review-form label, .review-form select, .review-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin: 0;
+  align-self: flex-start;
+}
+
+/*Special Page*/
+#specials {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 .specials-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 20px;
 }
 
 .specials-row {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.specials-item {
+  width: 150px;
+  text-align: center;
+}
+
+.specials-item img {
+  width: 100%;
+  height: auto;
+}
+
+.specials-item p {
+  font-size: 0.9rem;
+  color: #333;
 }
 
 .image-container {
-  width: 300px;
-  margin-right: 20px;
-  margin-bottom: 20px;
   position: relative;
-  padding-bottom: 40px;
-  font-weight: bold;
-  border: 1px solid #000;
-}
-
-.image-container:last-child {
-  margin-right: 0;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 .image-container img {
   width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .image-name {
-  position: absolute;
-  bottom: -30px;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-top: 10px;
 }
 
-/* Section for Hayat*/
-.headr {
-  margin: 0 auto;
+/* Shopping Cart Page */
+.cart-header {
   font-size: 1.5rem;
-}
-
-.cart-headr {
-  margin: ;
-  font-size: 1.5rem;
-}
-
-.par {
-  margin: 0 auto;
-}
-.album-container {
-  width: 900px;
-  height: 520px;
-  overflow: hidden;
-  background-color: var(--lightgray);
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  border: 1px solid ccc;
-  border-radius: 0px;
-  margin: 0 auto;
-  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  align-items: center;
 }
 
 .cart-container {
@@ -561,46 +501,10 @@ section#signup p a:hover {
   box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
-.gallery {
-  margin: 15px 45px 45px 90px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 150px;
-  height: 180px;
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-}
-
-.gallery:hover {
-  border: 1px solid #777;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.desc {
-  padding: 3px;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: .8rem;
-}
-
-.author {
-  padding: 3px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1rem;
-  margin-top: 15px;
-}
-
 .col-25 {
   padding: 0 16px;
   margin-bottom: 20px;
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
   flex: 25%;
 }
 
@@ -627,5 +531,5 @@ a {
 }
 
 .btn:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
