@@ -301,12 +301,13 @@ section#signup p a:hover {
     border-radius: 5px;
 }
 /* Shop page */
+/*
 #shop {
     background-color: #f9eb11;
-    /* SFSU gold */
     padding: 1rem;
     border-radius: 5px;
 }
+*/
 
 /* Reviews page */
 #reviews {
@@ -522,6 +523,11 @@ section#signup p a:hover {
   font-size: 1.5rem;
 }
 
+.cart-headr {
+  margin: ;
+  font-size: 1.5rem;
+}
+
 .par {
   margin: 0 auto;
 }
@@ -539,6 +545,20 @@ section#signup p a:hover {
   box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.2);
   text-align: center;
   align-items: center;
+}
+
+.cart-container {
+  width: 400px;
+  height: 390px;
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 20px 50px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  border: 1px solid ccc;
+  border-radius: 0px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
 .gallery {
@@ -575,4 +595,37 @@ section#signup p a:hover {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1rem;
   margin-top: 15px;
+}
+
+.col-25 {
+  padding: 0 16px;
+  margin-bottom: 20px;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
