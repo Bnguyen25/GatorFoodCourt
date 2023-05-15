@@ -24,11 +24,46 @@
     </header>
     <main>
       <section id="reviews">
-        <h1>Order History </h1>
-        <p>
-          Here- users can leave reviews and rate the food vendors around SFSU.
-        </p>
-        <!-- Need to add review form, list of reviews, and rating functionality -->
+        <h1>Order History & Feedback </h1>
+        
+        <section id="order-list">
+          <h2>List of Previous Orders</h2>
+          <ul>
+            <li>Order 1: 05/10/23 HALAL SHOP- 1 TIKKA OVER RICE </li>
+            <li>Order 2: 05/01/23 QUICKLY- 1 MANGO BOBA AND ICED TEA</li>
+            <li>Order 3: 04/28/23 SUBWAY- 1 FOOTLONG MEAL</li>
+          </ul>
+        </section>
+        <!-- Review form -->
+        <form id="review-form">
+          <h2>Add Review</h2>
+          <label for="rating">Rating:</label>
+          <select id="rating" name="rating">
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+          </select>
+          <br />
+          <label for="review">Review:</label>
+          <textarea id="review" name="review" rows="5"></textarea>
+          <br />
+          <button type="submit">Submit Review</button>
+        </form>
+       
+        
+        <!-- List of reviews -->
+        <div id="reviews-list">
+          <h2>Reviews</h2>
+          <ul>
+            <!-- Example review -->
+            <li>
+              <div class="rating">4 Stars</div>
+              <div class="review">The Tikka over rice was delicious and the price for the quantity was great!</div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

@@ -310,8 +310,208 @@ section#signup p a:hover {
 
 /* Reviews page */
 #reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #reviews h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  #order-list {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    width: 60%;
+  }
+  
+  #order-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #order-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #order-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  #order-history {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    width: 60%;
+  }
+  
+  #order-history h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #order-history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #order-history li {
+    margin-bottom: 0.5rem;
+  }
+  
+  #review-form {
     background-color: #f9eb11;
     /* SFSU gold */
     padding: 1rem;
     border-radius: 5px;
+    margin-bottom: 2rem;
+    width: 60%;
+  }
+  
+  #review-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #review-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #review-form select,
+  #review-form textarea {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  #review-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  #review-form button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  #reviews-list {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%;
+  }
+  
+  #reviews-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #reviews-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #reviews-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .rating {
+    display: inline-block;
+    background-color: #f9eb11;
+    /* SFSU gold */
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  /* Specials section */
+/* Specials section */
+#specials {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+#specials h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#specials h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.specials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.specials-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.image-container {
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 40px;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+
+.image-container:last-child {
+  margin-right: 0;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.image-name {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
