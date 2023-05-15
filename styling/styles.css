@@ -182,14 +182,12 @@ section#signup p a:hover {
 /* Home Page */
 #home {
   text-align: center;
-  padding: 50px 0;
 }
 
 #home .headr {
   font-size: 2.5em;
   font-weight: 700;
   color: #2d2d2d;
-  margin-bottom: 20px;
 }
 
 #home p {
@@ -245,7 +243,6 @@ section#signup p a:hover {
   color: #333;
   text-align: center;
   padding: 20px;
-  margin: 20px;
   background-color: #f3f3f3;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -516,6 +513,11 @@ span.price {
 a {
   text-decoration: none;
   color: #000;
+}
+
+a:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
 }
 
 .btn {
